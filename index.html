@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt" ng-app="meuApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/css/estilo.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/angular.js"></script>
+    <script type="text/javascript" src="assets/scripts/modulo.js"></script>
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body >
+    <section class="container" id="menu">
+      <div class="row">
+        <div class="col-md-4" ng-controller="escalaController">
+          <h2>Escala {{teste}}</h2>
+          <div class="dropdown">
+          <button class="btn btn-default btn-lg btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+            {{escalaSelecionada}}
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li ng-click="escolherEscala(escala);montarEscala(escalaSelecionada, notaSelecionada)" ng-repeat="escala in nomeEscalaArray"><a href="#" >{{escala}}</a></li>
+          </ul>
+          </div>
+        </div><!--col-->
+
+        <div class="col-md-4" ng-controller="notaController">
+          <h2>Nota</h2>
+          <div class="dropdown">
+          <button class="btn btn-default btn-lg btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+            {{notaSelecionada}}
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li ng-click="escolherNota(nota);montarEscala(escalaSelecionada, notaSelecionada);montarHarmonica(harmonicaSelecionada,notaSelecionada)"ng-repeat="nota in notasArray"><a href="#" >{{nota.simbolo}}</a></li>
+          </ul>
+          </div>
+        </div><!--col-->
+        <div class="col-md-4" ng-controller="harmonicaController">
+          <h2>Harmônica</h2>
+          <div class="dropdown">
+          <button class="btn btn-default btn-lg btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+            {{harmonicaSelecionada}}
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li ng-click="escolherHarmonica(harmonica)" ng-repeat="harmonica in harmonicaArray"><a href="#">{{harmonica}}</a></li>
+          </ul>
+          </div>
+        </div><!--col-->
+
+      </div><!--row-->
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Escala {{escalaSelecionada}} de {{notaSelecionada}}</h4>
+        </div>
+      </div><!--row-->
+      <div class="row">
+        <div class="col-md-12 text-center" >
+          <div ng-repeat="nota in escala" ng-mouseenter="tocarNota(nota.simbolo)">
+            <p>{{nota.simbolo}}</p>
+            <audio id="audio-escala-{{nota.simbolo}}" preload="auto">
+              <source src="{{nota.audio}}" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div><!--row-->
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Campo harmônico {{harmonicaSelecinada}} de {{notaSelecionada}}</h>
+        </div>
+      </div><!--row-->
+      <div class="row">
+        <div class="col-md-12 text-center" >
+          <div ng-repeat="acorde in harmonica" ng-mouseenter="tocarAcorde(acorde.notas[0])">
+            <p>{{acorde.acorde}}</p>
+            <audio  ng-repeat="audio in acorde.audios" class="audio-harmonica-{{acorde.notas[0]}}" preload="auto">
+              <source src="{{audio}}" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div><!--row-->
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

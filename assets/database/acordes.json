@@ -1,0 +1,470 @@
+[
+    {
+        "acorde":"C",
+        "notas":[
+            "C",
+            "E",
+            "G"
+        ],
+        "audios":[
+            "assets/midia/C.mp3",
+            "assets/midia/E.mp3",
+            "assets/midia/G.mp3"
+        ]
+    },
+    {
+        "acorde":"Cm",
+        "notas":[
+            "C",
+            "D#",
+            "G"
+        ],
+        "audios":[
+            "assets/midia/C.mp3",
+            "assets/midia/D sharp.mp3",
+            "assets/midia/G.mp3"
+        ]
+    },
+    {
+        "acorde":"Cº",
+        "notas":[
+            "C",
+            "D#",
+            "F#"
+        ],
+        "audios":[
+            "assets/midia/C.mp3",
+            "assets/midia/D sharp.mp3",
+            "assets/midia/F sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"C#",
+        "notas":[
+            "C#",
+            "F",
+            "G#"
+        ],
+        "audios":[
+            "assets/midia/C sharp.mp3",
+            "assets/midia/F.mp3",
+            "assets/midia/G sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"C#m",
+        "notas":[
+            "C#",
+            "E",
+            "G#"
+        ],
+        "audios":[
+            "assets/midia/C sharp.mp3",
+            "assets/midia/E.mp3",
+            "assets/midia/G sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"C#º",
+        "notas":[
+            "C#",
+            "E",
+            "G"
+        ],
+        "audios":[
+            "assets/midia/C sharp.mp3",
+            "assets/midia/E.mp3",
+            "assets/midia/G.mp3"
+        ]
+    },
+    { 
+        "acorde":"D",
+        "notas":[
+            "D",
+            "F#",
+            "A"
+        ],
+        "audios":[
+            "assets/midia/D.mp3",
+            "assets/midia/F sharp.mp3",
+            "assets/midia/A.mp3"
+        ]
+    },
+    { 
+        "acorde":"Dm",
+        "notas":[
+            "D",
+            "F",
+            "A"
+        ],
+        "audios":[
+            "assets/midia/D.mp3",
+            "assets/midia/F.mp3",
+            "assets/midia/A.mp3"
+        ]
+    },
+    { 
+        "acorde":"Dº",
+        "notas":[
+            "D",
+            "F",
+            "G#"
+        ],
+        "audios":[
+            "assets/midia/D.mp3",
+            "assets/midia/F.mp3",
+            "assets/midia/G sharp.mp3"
+        ]
+    },
+    { 
+        "acorde":"D#",
+        "notas":[
+            "D#",
+            "G",
+            "A#"
+        ],
+        "audios":[
+            "assets/midia/D sharp.mp3",
+            "assets/midia/F.mp3",
+            "assets/midia/A sharp.mp3"
+        ]
+    },
+    { 
+        "acorde":"D#m",
+        "notas":[
+            "D#",
+            "F#",
+            "A#"
+        ],
+        "audios":[
+            "assets/midia/D sharp.mp3",
+            "assets/midia/F sharp.mp3",
+            "assets/midia/A sharp.mp3"
+        ]
+    },
+    { 
+        "acorde":"D#º",
+        "notas":[
+            "D#",
+            "F#",
+            "A"
+        ],
+        "audios":[
+            "assets/midia/D sharp.mp3",
+            "assets/midia/F sharp.mp3",
+            "assets/midia/A.mp3"
+        ]
+    },
+    {
+        "acorde":"E",
+        "notas":[
+            "E",
+            "G#",
+            "B"
+        ],
+        "audios":[
+            "assets/midia/E.mp3",
+            "assets/midia/G sharp.mp3",
+            "assets/midia/B.mp3"
+        ]
+    },
+    {
+        "acorde":"Em",
+        "notas":[
+            "E",
+            "G",
+            "B"
+        ],
+        "audios":[
+            "assets/midia/E.mp3",
+            "assets/midia/G.mp3",
+            "assets/midia/B.mp3"
+        ]
+    },
+    {
+        "acorde":"Eº",
+        "notas":[
+            "E",
+            "G",
+            "A#"
+        ],
+        "audios":[
+            "assets/midia/E.mp3",
+            "assets/midia/G.mp3",
+            "assets/midia/A sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"F",
+        "notas":[
+            "F",
+            "A",
+            "C"
+        ],
+        "audios":[
+            "assets/midia/F.mp3",
+            "assets/midia/A.mp3",
+            "assets/midia/C.mp3"
+        ]
+    },
+    {
+        "acorde":"Fm",
+        "notas":[
+            "F",
+            "G#",
+            "C"
+        ],
+        "audios":[
+            "assets/midia/F.mp3",
+            "assets/midia/G sharp.mp3",
+            "assets/midia/C.mp3"
+        ]
+    },
+    {
+        "acorde":"Fº",
+        "notas":[
+            "F",
+            "G#",
+            "B"
+        ],
+        "audios":[
+            "assets/midia/F.mp3",
+            "assets/midia/G sharp.mp3",
+            "assets/midia/B.mp3"
+        ]
+    },
+    {
+        "acorde":"F#",
+        "notas":[
+            "F#",
+            "A#",
+            "C#"
+        ],
+        "audios":[
+            "assets/midia/F sharp.mp3",
+            "assets/midia/A sharp.mp3",
+            "assets/midia/C sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"F#m",
+        "notas":[
+            "F#",
+            "A",
+            "C#"
+        ],
+        "audios":[
+            "assets/midia/F sharp.mp3",
+            "assets/midia/A.mp3",
+            "assets/midia/C sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"F#º",
+        "notas":[
+            "F#",
+            "A",
+            "C"
+        ],
+        "audios":[
+            "assets/midia/F sharp.mp3",
+            "assets/midia/A.mp3",
+            "assets/midia/C.mp3"
+        ]
+    },
+    {
+        "acorde":"G",
+        "notas":[
+            "G",
+            "B",
+            "D"
+        ],
+        "audios":[
+            "assets/midia/G.mp3",
+            "assets/midia/B.mp3",
+            "assets/midia/D.mp3"
+        ]
+    },
+    {
+        "acorde":"Gm",
+        "notas":[
+            "G",
+            "A#",
+            "D"
+        ],
+        "audios":[
+            "assets/midia/G.mp3",
+            "assets/midia/A sharp.mp3",
+            "assets/midia/D.mp3"
+        ]
+    },
+    {
+        "acorde":"Gº",
+        "notas":[
+            "G",
+            "A#",
+            "C#"
+        ],
+        "audios":[
+            "assets/midia/G.mp3",
+            "assets/midia/A sharp.mp3",
+            "assets/midia/C sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"G#",
+        "notas":[
+            "G#",
+            "C",
+            "D#"
+        ],
+        "audios":[
+            "assets/midia/G sharp.mp3",
+            "assets/midia/C.mp3",
+            "assets/midia/D sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"G#m",
+        "notas":[
+            "G#",
+            "B",
+            "D#"
+        ],
+        "audios":[
+            "assets/midia/G sharp.mp3",
+            "assets/midia/B.mp3",
+            "assets/midia/D sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"G#º",
+        "notas":[
+            "G#",
+            "B",
+            "D"
+        ],
+        "audios":[
+            "assets/midia/G sharp.mp3",
+            "assets/midia/B.mp3",
+            "assets/midia/D.mp3"
+        ]
+    },
+    {
+        "acorde":"A",
+        "notas":[
+            "A",
+            "C#",
+            "E"
+        ],
+        "audios":[
+            "assets/midia/A.mp3",
+            "assets/midia/C sharp.mp3",
+            "assets/midia/E.mp3"
+        ]
+    },
+    {
+        "acorde":"Am",
+        "notas":[
+            "A",
+            "C",
+            "E"
+        ],
+        "audios":[
+            "assets/midia/A.mp3",
+            "assets/midia/C.mp3",
+            "assets/midia/E.mp3"
+        ]
+    },
+    {
+        "acorde":"Aº",
+        "notas":[
+            "A",
+            "C",
+            "D#"
+        ],
+        "audios":[
+            "assets/midia/A.mp3",
+            "assets/midia/C.mp3",
+            "assets/midia/D sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"A#",
+        "notas":[
+            "A#",
+            "D",
+            "F"
+        ],
+        "audios":[
+            "assets/midia/A sharp.mp3",
+            "assets/midia/D.mp3",
+            "assets/midia/F.mp3"
+        ]
+    },
+    {
+        "acorde":"A#m",
+        "notas":[
+            "A#",
+            "C#",
+            "F"
+        ],
+        "audios":[
+            "assets/midia/A sharp.mp3",
+            "assets/midia/C sharp.mp3",
+            "assets/midia/F.mp3"
+        ]
+    },
+    {
+        "acorde":"A#º",
+        "notas":[
+            "A#",
+            "C#",
+            "E"
+        ],
+        "audios":[
+            "assets/midia/A sharp.mp3",
+            "assets/midia/C sharp.mp3",
+            "assets/midia/E.mp3"
+        ]
+    },
+    {
+        "acorde":"B",
+        "notas":[
+            "B",
+            "D#",
+            "F#"
+        ],
+        "audios":[
+            "assets/midia/B.mp3",
+            "assets/midia/D sharp.mp3",
+            "assets/midia/F sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"Bm",
+        "notas":[
+            "B",
+            "D",
+            "F#"
+        ],
+        "audios":[
+            "assets/midia/B.mp3",
+            "assets/midia/D.mp3",
+            "assets/midia/F sharp.mp3"
+        ]
+    },
+    {
+        "acorde":"Bº",
+        "notas":[
+            "B",
+            "D",
+            "F"
+        ],
+        "audios":[
+            "assets/midia/B.mp3",
+            "assets/midia/D.mp3",
+            "assets/midia/F.mp3"
+        ]
+    }
+]

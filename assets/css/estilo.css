@@ -1,0 +1,50 @@
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#610072+0,9b002e+100 */
+background: #610072; /* Old browsers */
+background: -moz-linear-gradient(45deg, #610072 0%, #9b002e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #610072 0%,#9b002e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #610072 0%,#9b002e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#610072', endColorstr='#9b002e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: 'Ubuntu Mono', monospace;
+}
+h1,h2,h3,h4,h5{
+  color: #fff;
+}
+p{
+  font-weight: 0;
+}
+section .row{
+  margin-bottom: 30px;
+}
+.container>.row>.col-md-12 div{
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  margin-left: 30px;
+  box-shadow: 2px 2px 5px 2px rgba(0,0,0, 0.2);
+  border-radius: 100%;
+  transition: box-shadow 0.5s;
+}
+.container>.row>.col-md-12 div:hover{
+  box-shadow: 2px 2px 10px 5px rgba(0,0,0, 0.2);
+}
+
+.container>.row>.col-md-12 p{
+  position: relative;
+  font-size: 40px;
+  top: 30px;
+  color: #fff;
+}
+.btn{
+  border-radius: 0px;
+}
+.btn-group-lg>.btn, .btn-lg{
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+}
+#menu{
+margin-top: 100px;
+}

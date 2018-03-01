@@ -1,0 +1,62 @@
+[
+  {
+    "nota":"dó",
+    "simbolo":"C",
+    "audio":"assets/midia/C.mp3"
+  },
+  {
+    "nota":"dó sustenido",
+    "simbolo":"C#",
+    "audio":"assets/midia/C sharp.mp3"
+  },
+  {
+    "nota":"ré",
+    "simbolo":"D",
+    "audio":"assets/midia/D.mp3"
+  },
+  {
+    "nota":"ré sustenido",
+    "simbolo":"D#",
+    "audio":"assets/midia/D sharp.mp3"
+  },
+  {
+    "nota":"mi",
+    "simbolo":"E",
+    "audio":"assets/midia/E.mp3"
+  },
+  {
+    "nota":"fá",
+    "simbolo":"F",
+    "audio":"assets/midia/F.mp3"
+  },
+  {
+    "nota":"fá sustenido",
+    "simbolo":"F#",
+    "audio":"assets/midia/F sharp.mp3"
+  },
+  {
+    "nota":"sol",
+    "simbolo":"G",
+    "audio":"assets/midia/G.mp3"
+  },
+  {
+    "nota":"sol sustenido",
+    "simbolo":"G#",
+    "audio":"assets/midia/G sharp.mp3"
+  },
+  {
+    "nota":"lá",
+    "simbolo":"A",
+    "audio":"assets/midia/A.mp3"
+  },
+  {
+    "nota":"lá sustenido",
+    "simbolo":"A#",
+    "audio":"assets/midia/A sharp.mp3"
+  },
+  {
+    "nota":"sí",
+    "simbolo":"B",
+    "audio":"assets/midia/B.mp3"
+  }
+]
