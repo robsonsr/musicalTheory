@@ -64,21 +64,19 @@ meuApp.run(function($rootScope, $http, $window){
   /*montar o array com a nota e escala selecionada para ser
   exibida na view*/
   $rootScope.montarEscala = function(escalaSelecionada, notaSelecionada){
-    $rootScope.escala = [];
     $http.get("assets/database/escala_"+escalaSelecionada+".json")
     .then(function(response){
         /* verificar a notas pertencentes a escala e montar um array com as escalas
         do arquivo notas.json por que neste arquivos as notas possuem detalhes
         como a mídia de som, simbolo e nome*/
         var escalas = response.data[notaSelecionada];
+        $rootScope.escala = [];
         $http.get("assets/database/notas.json")
         .then(function(response){
           var notas = response.data;
-          $rootScope.escala = [];
           for(indiceEscala in escalas){
             for(indiceNota in notas){
               if(notas[indiceNota].simbolo == escalas[indiceEscala]){
-                console.log(notas[indiceNota]);
                 $rootScope.escala.push(notas[indiceNota]);
               }
             }
