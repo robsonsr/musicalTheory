@@ -1,6 +1,5 @@
 var meuApp = angular.module("meuApp",[]);
 
-
 meuApp.controller("escalaController",function($scope, $rootScope, $http){
 
   $http.get("assets/database/escalas.json")
@@ -105,11 +104,14 @@ meuApp.run(function($rootScope, $http, $window){
       
   }
 
+  
+  
   $rootScope.tocarNota = function(nota){
     var audio = $window.document.getElementById("audio-escala-"+nota);
     audio.load();
     audio.play();
   }
+
   $rootScope.tocarAcorde = function(acorde){
     var audios = $window.document.getElementsByClassName("audio-harmonica-"+acorde);
     for(i=0; i<audios.length; i++){
