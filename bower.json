@@ -1,0 +1,29 @@
+{
+  "name": "musicalTheory",
+  "homepage": "http://www.robsondeveloper.com.br/musicalTheory",
+  "authors": [
+    "Robson Santos <robson_sr@hotmail.com.br>"
+  ],
+  "description": "Ferramenta para ajudar profissionais da música, onde é possível consultas escalas, campos harmônicos e progressões agradáveis.",
+  "main": "",
+  "keywords": [
+    "musica",
+    "teoria",
+    "escala",
+    "harmonica",
+    "acordes",
+    "notas"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.9",
+    "bootstrap": "3.3.7"
+  }
+}

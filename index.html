@@ -5,15 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Musical Theory</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="assets/css/estilo.css" rel="stylesheet">
-    <script type="text/javascript" src="assets/angular.js"></script>
+    <link href="assets/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/estilo.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/components/angular/angular.min.js"></script>
     <script type="text/javascript" src="assets/scripts/modulo.js"></script>
-
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,7 +61,9 @@
       </div><!--row-->
     </section>
 
+    
     <section class="container">
+      <!--mostra a escala-->
       <div class="row">
         <div class="col-md-12">
           <h4>Escala {{escalaSelecionada}} de {{notaSelecionada}}</h4>
@@ -80,6 +80,7 @@
         </div>
       </div><!--row-->
 
+       <!--mostra o campo harmônico-->
       <div class="row">
         <div class="col-md-12">
           <h4>Campo harmônico {{harmonicaSelecinada}} de {{notaSelecionada}}</h>
@@ -98,9 +99,9 @@
     </section>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/jquery.js"></script>
+    <script src="assets/components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
   </body>
