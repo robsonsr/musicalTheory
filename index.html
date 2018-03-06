@@ -21,10 +21,23 @@
     <![endif]-->
   </head>
   <body >
-    <section class="container" id="menu">
+
+    <!--logo titulo-->
+    <section>
+        <div class="container logo-titulo">
+            <div class="row">
+              <div class="col-md-12">
+                  <img class="img-responsive" src="assets/img/musicalTheory.svg">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!--menu -->
+    <section class="container menu-opcoes">
       <div class="row">
         <div class="col-md-4" ng-controller="escalaController">
-          <h2>Escala {{teste}}</h2>
+          <h2 class="">Escala</h2>
           <div class="dropdown">
           <button class="btn btn-default btn-lg btn-block dropdown-toggle" type="button" data-toggle="dropdown">
             {{escalaSelecionada}}
@@ -46,6 +59,7 @@
           </ul>
           </div>
         </div><!--col-->
+
         <div class="col-md-4" ng-controller="harmonicaController">
           <h2>Harmônica</h2>
           <div class="dropdown">
@@ -61,14 +75,15 @@
       </div><!--row-->
     </section>
 
-    
-    <section class="container">
+    <!--escala e campo harmônico-->
+    <section class="container secao-escala-hamonica">
       <!--mostra a escala-->
       <div class="row">
         <div class="col-md-12">
-          <h4>Escala {{escalaSelecionada}} de {{notaSelecionada}}</h4>
+            <h4>Escala {{escalaSelecionada}} de {{notaSelecionada}}</h4>
         </div>
       </div><!--row-->
+    
       <div class="row">
         <div class="col-md-12 text-center" >
           <div ng-repeat="nota in escala" ng-mouseenter="tocarNota(nota.simbolo)">
@@ -79,13 +94,16 @@
           </div>
         </div>
       </div><!--row-->
+      
 
        <!--mostra o campo harmônico-->
       <div class="row">
         <div class="col-md-12">
           <h4>Campo harmônico {{harmonicaSelecinada}} de {{notaSelecionada}}</h>
+          
         </div>
       </div><!--row-->
+      
       <div class="row">
         <div class="col-md-12 text-center" >
           <div ng-repeat="acorde in harmonica" ng-mouseenter="tocarAcorde(acorde.notas[0])">
