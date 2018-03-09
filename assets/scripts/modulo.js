@@ -105,24 +105,39 @@ meuApp.run(function($rootScope, $http, $window){
   }
 
   
-  
-  $rootScope.tocarNota = function(nota){
-    var audio = $window.document.getElementById("audio-escala-"+nota);
-    audio.load();
-    audio.play();
+  $rootScope.registrarSons = function(){
+    createjs.Sound.registerSounds(
+      [ 
+        {id:"C", src:"C.mp3"},
+        {id:"C#", src:"C sharp.mp3"},
+        {id:"D", src:"D.mp3"},
+        {id:"D#", src:"D sharp.mp3"},
+        {id:"E", src:"E.mp3"},
+        {id:"F", src:"F.mp3"},
+        {id:"F#", src:"F sharp.mp3"},
+        {id:"G", src:"G.mp3"},
+        {id:"G#", src:"G sharp.mp3"},
+        {id:"A", src:"A.mp3"},
+        {id:"A#", src:"A sharp.mp3"},
+        {id:"B", src:"B.mp3"}, ],"assets/midia/"
+    )
   }
 
+  $rootScope.tocarNota = function(nota){
+   createjs.Sound.play(nota);
+  }
+
+  
+
   $rootScope.tocarAcorde = function(acorde){
-    var audios = $window.document.getElementsByClassName("audio-harmonica-"+acorde);
-    for(i=0; i<audios.length; i++){
-      audios[i].load();
-      audios[i].play();
-    }
-    
+    for(var i=0;i<acorde.length; i++){
+      createjs.Sound.play(acorde[i]);
+    } 
   }
 
 
   $rootScope.montarEscala($rootScope.escalaSelecionada, $rootScope.notaSelecionada);
   $rootScope.montarHarmonica($rootScope.harmonicaSelecionada, $rootScope.notaSelecionada);
+  $rootScope.registrarSons();
 
 });

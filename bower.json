@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "angular": "angularjs#^1.6.9",
-    "bootstrap": "3.3.7"
+    "bootstrap": "3.3.7",
+    "SoundJS": "^1.0.2"
   }
 }

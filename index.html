@@ -88,9 +88,6 @@
         <div class="col-md-12 text-center" >
           <div ng-repeat="nota in escala" ng-mouseenter="tocarNota(nota.simbolo)">
             <p>{{nota.simbolo}}</p>
-            <audio id="audio-escala-{{nota.simbolo}}" preload="auto">
-              <source src="{{nota.audio}}" type="audio/mpeg">
-            </audio>
           </div>
         </div>
       </div><!--row-->
@@ -106,7 +103,7 @@
       
       <div class="row">
         <div class="col-md-12 text-center" >
-          <div ng-repeat="acorde in harmonica" ng-mouseenter="tocarAcorde(acorde.notas[0])">
+          <div ng-repeat="acorde in harmonica" ng-mouseenter="tocarAcorde(acorde.notas)">
             <p>{{acorde.acorde}}</p>
             <audio  ng-repeat="audio in acorde.audios" class="audio-harmonica-{{acorde.notas[0]}}" preload="auto">
               <source src="{{audio}}" type="audio/mpeg">
@@ -120,6 +117,8 @@
     <script src="assets/components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="assets/components/SoundJS/lib/soundjs.min.js"></script>
 
 
   </body>
