@@ -119,7 +119,7 @@ meuApp.run(function($rootScope, $http, $window){
         {id:"G#", src:"G sharp.mp3"},
         {id:"A", src:"A.mp3"},
         {id:"A#", src:"A sharp.mp3"},
-        {id:"B", src:"B.mp3"}, ],"assets/midia/"
+        {id:"B", src:"B.mp3"} ],"assets/midia/"
     )
   }
 

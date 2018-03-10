@@ -42,7 +42,7 @@ section{
   background-color: rgba(0,0,0,0);
   color: #fff;
 }
-.img-responsive{
+.logo-titulo .img-responsive{
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: -20px;
@@ -60,4 +60,40 @@ p{
   font-size: inherit;
   top: 30px;
   color: #fff;
+}
+
+footer{
+  background-color: #191919;
+  border-top: 3px solid rgba(0,0,0, 0.2);
+}
+footer .container{
+  padding: 30px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+  background-color: #191919; 
+}
+nav{
+  list-style: none;
+}
+.nav li {
+  float: right !important;
+  
+}
+.nav{
+  margin: 0 auto;
+}
+footer .container span{
+  font-size: 50px;
+  color: #fff;
+}
+
+footer .container img{
+  height: 50px;
+}
+
+@media screen and (max-width : 992px){
+ .row .col-md-12{
+   text-align: center;
+ }
 }
